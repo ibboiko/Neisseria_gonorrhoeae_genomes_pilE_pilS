@@ -1,5 +1,6 @@
-Raw Data
+Raw Data Folder.
 This folder contains the raw data files used in the analysis of Neisseria gonorrhoeae genomes, pilE, and pilS sequences.
+#
 File Descriptions
 ##
 
