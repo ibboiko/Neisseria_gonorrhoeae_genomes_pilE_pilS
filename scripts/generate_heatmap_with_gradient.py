@@ -21,8 +21,8 @@ variation_data = pd.read_excel(variation_file)
 # Normalize Variation Index (0-100%) for Gradient Mapping
 variation_data["Normalized_Index"] = variation_data["Variation_Index"] / variation_data["Variation_Index"].max()
 
-# Ignore stop codon positions
-stop_codon_position = 165  # Define the stop codon position
+# Ignore parental stop codon position at 165 AA
+stop_codon_position = 165  # Define parental stop codon position
 variation_data = variation_data[variation_data["Amino_Acid_Position"] != stop_codon_position]
 
 # Map Normalized Scores to PyMol-Compatible RGB Colors (Green to Red)
@@ -101,3 +101,4 @@ plt.xticks(fontsize=tick_label_size, color="black")
 # Save with reduced DPI and tight layout
 plt.savefig(legend_output_file, dpi=300, bbox_inches="tight")
 print(f"Legend saved to {legend_output_file}")
+
