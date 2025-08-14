@@ -4,7 +4,11 @@ This R script analyzes the genomic positions of SmaCla repetitive sequences and 
 
 The script requires standard GenBank files (.gb format) containing genomic sequences.
 
-Input folder: Finished_genome_N65/ (located in data/raw/ folder); you need to download the tested finished genomes following the Manuscript (see Note: Finished genomes can be downloaded from PubMLST using the protocol from Boiko, I., Metaane, S., Harrison, O. B., Exley, R. M., Aho, E. L., & Seifert, H. S. (2025). Publicly available Neisseria gonorrhoeae genomes predominantly represent in vitro-derived nonpiliated variants (Version 1) [Data set]. Prism. Galter Health Sciences Library. Northwestern University. https://doi.org/10.18131/k42dy-w4a75).
+Input folder: Finished_genome_N65/ (located in data/raw/ folder).
+Note, you need to download the tested finished genomes from PubMLST using the protocol from
+Boiko, I., Metaane, S., Harrison, O. B., Exley, R. M., Aho, E. L., & Seifert, H. S. (2025).
+Publicly available Neisseria gonorrhoeae genomes predominantly represent in vitro-derived nonpiliated variants (Version 1)
+[Data set]. Prism. Galter Health Sciences Library. Northwestern University. https://doi.org/10.18131/k42dy-w4a75).
 
 Script handles special reference genomes FA1090 and MS11.
 
