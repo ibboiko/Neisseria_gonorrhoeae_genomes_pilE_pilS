@@ -30,10 +30,10 @@ Associated Script: generate_heatmap_with_gradient_v09_5.py
 
 #
 All scripts for processing this raw data are located in the main repository folder:
-v08_SmaClaStat_RScript.R - SmaCla statistical analysis
-v08_RScript_SmaCla_Pos_95Sens_pilE_dnaA.R - SmaCla-dnaA relative distance  algorithm
-v26_pilE_Var_Ind_Stat_RScript_single_panel.R - pilE variation statistics
-generate_heatmap_with_gradient_v09_5.py - PilE structure variation mapping algorithm
+SmaClaStat_RScript.R - SmaCla statistical analysis
+SmaCla_Pos_95Sens_pilE_dnaA_RScript.R - SmaCla-dnaA relative distance  algorithm
+pilE_Var_Ind_Stat_RScript.R - pilE variation statistics
+generate_heatmap_with_gradient.py - PilE structure variation mapping algorithm
 
 Notes
 All files are in their original format as used for the published analysis.
