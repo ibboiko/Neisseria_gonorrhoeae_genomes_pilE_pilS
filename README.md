@@ -25,7 +25,7 @@ rv_02_pilE_Pt_PubMLST_variation_score.xlsx: Amino acid variation index data;
 pilE_FA1090_Pt_b470a_unrelaxed_rank_001_alphafold2_ptm_model_4_seed_000.pdb: PDB structure file;
 v06_Ntds_pilE_VarIndex_data.xlsx: pilE variation index data for statistical analysis.
 
-Note: Finished genomes can be downloaded following the Manuscript data availability section at https://prism.northwestern.edu/
+Note: Finished genomes can be downloaded from Boiko, I., Metaane, S., Harrison, O. B., Exley, R. M., Aho, E. L., & Seifert, H. S. (2025). Publicly available Neisseria gonorrhoeae genomes predominantly represent in vitro-derived nonpiliated variants (Version 1) [Data set]. Prism. Galter Health Sciences Library. Northwestern University. https://doi.org/10.18131/k42dy-w4a75
 
 Software Requirements
 
