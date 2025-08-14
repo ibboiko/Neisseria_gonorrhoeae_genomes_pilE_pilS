@@ -4,16 +4,18 @@ This repository contains scripts used in the Manuscript "Publicly available Neis
 The repository provides computational tools for analyzing SmaCla repetitive sequences and pilE gene/PilE protein variation in Neisseria gonorrhoeae genomes.
 
 Scripts Description
-1. SmaClaStat_RScript.R
+
+1. SmaCla_Pos_95Sens_pilE_dnaA_RScript.R (SmaCla-dnaA relative distance  algorithm)
+Analyzes genomic positions of SmaCla repetitive sequences and target sequences (dnaA, garP, Leader sequences of pilE). Identifies pilE-associated SmaCla repeats and calculates relative positions to dnaA start sites for genomic context analysis.
+Use Protocol_PubMLST_in_silico.docx to upload finished genomes as input for Script 1 [Authors will provide DOI here; https://prism.northwestern.edu/]
+
+3. SmaClaStat_RScript.R
 Performs statistical analysis of SmaCla repetitive sequences distribution in N. gonorrhoeae genomes. Compares SmaCla element counts and genomic positions between genomes with and without pilE genes using statistical tests (t-tests, Wilcoxon tests, and effect size calculations).
 
-2. SmaCla_Pos_95Sens_pilE_dnaA_RScript.R (SmaCla-dnaA relative distance  algorithm)
-Analyzes genomic positions of SmaCla repetitive sequences and target sequences (dnaA, garP, Leader sequences of pilE). Identifies pilE-associated SmaCla repeats and calculates relative positions to dnaA start sites for genomic context analysis.
-
-3. generate_heatmap_with_gradient.py (PilE structure variation mapping algorithm)
+4. generate_heatmap_with_gradient.py (PilE structure variation mapping algorithm)
 Generates a 3D protein structure heatmap visualization of amino acid variation indices for the pilE protein. Creates PyMol-compatible scripts for protein structure visualization with color-coded variation patterns mapped to the protein structure.
 
-4. pilE_Var_Ind_Stat_RScript.R
+5. pilE_Var_Ind_Stat_RScript.R
 Performs statistical analysis and visualization of pilE gene variation indices across different structural components. Creates boxplots with pairwise statistical comparisons and generates statistical reports.
 
 Data Requirements
