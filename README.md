@@ -18,6 +18,9 @@ Generates a 3D protein structure heatmap visualization of amino acid variation i
 5. pilE_Var_Ind_Stat_RScript.R
 Performs statistical analysis and visualization of pilE gene variation indices across different structural components. Creates boxplots with pairwise statistical comparisons and generates statistical reports.
 
+6.pilS_copies_generator_with_report
+Identification and extraction pilS loci based on the recognition of the specific motifs cys2 and SmaCla
+
 Data Requirements
 Input files (located in data/raw/ folder):
 v08_SmaCla_Position_Output_N65.xlsx: SmaCla position data for statistical analysis;
