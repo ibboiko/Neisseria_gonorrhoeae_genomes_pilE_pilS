@@ -7,7 +7,7 @@ Scripts Description
 
 1. SmaCla_Pos_95Sens_pilE_dnaA_RScript.R (SmaCla-dnaA relative distance  algorithm)
 Analyzes genomic positions of SmaCla repetitive sequences and target sequences (dnaA, garP, Leader sequences of pilE). Identifies pilE-associated SmaCla repeats and calculates relative positions to dnaA start sites for genomic context analysis.
-Use Protocol_PubMLST_in_silico.docx to upload finished genomes as input for Script 1 [Boiko, I., Metaane, S., Harrison, O. B., Exley, R. M., Aho, E. L., & Seifert, H. S. (2025). Publicly available Neisseria gonorrhoeae genomes predominantly represent in vitro-derived nonpiliated variants (Version 1) [Data set]. Prism. Galter Health Sciences Library. Northwestern University. https://doi.org/10.18131/k42dy-w4a75]
+Use Protocol_PubMLST_in_silico.docx to upload finished genomes as input for Script 1 [Boiko, I., Metaane, S., & Seifert, H. S. (2025). Publicly available Neisseria gonorrhoeae genomes predominantly represent in vitro-derived nonpiliated variants (Version 2) [Data set]. Prism. Galter Health Sciences Library. Northwestern University. https://doi.org/10.18131/k42dy-w4a75]
 
 3. SmaClaStat_RScript.R
 Performs statistical analysis of SmaCla repetitive sequences distribution in N. gonorrhoeae genomes. Compares SmaCla element counts and genomic positions between genomes with and without pilE genes using statistical tests (t-tests, Wilcoxon tests, and effect size calculations).
