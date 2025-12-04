@@ -7,7 +7,7 @@ Scripts Description
 
 1. SmaCla_Pos_95Sens_pilE_dnaA_RScript.R (SmaCla-dnaA relative distance  algorithm)
 Analyzes genomic positions of SmaCla repetitive sequences and target sequences (dnaA, garP, Leader sequences of pilE). Identifies pilE-associated SmaCla repeats and calculates relative positions to dnaA start sites for genomic context analysis.
-Use Protocol_PubMLST_in_silico.docx to upload finished genomes as input for Script 1 [Boiko, I., Metaane, S., & Seifert, H. S. (2025). Publicly available Neisseria gonorrhoeae genomes predominantly represent in vitro-derived nonpiliated variants (Version 2) [Data set]. Prism. Galter Health Sciences Library. Northwestern University. https://doi.org/10.18131/z9e54-v0237
+Use Protocol_PubMLST_in_silico.docx to upload finished genomes as input for Script 1 [Boiko, I., Metaane, S., & Seifert, H. S. (2025). Publicly available Neisseria gonorrhoeae genomes predominantly represent in vitro-derived nonpiliated variants (Version 2) [Data set]. Prism. Galter Health Sciences Library. Northwestern University. https://doi.org/10.18131/mxcpt-hcg57].
 
 3. SmaClaStat_RScript.R
 Performs statistical analysis of SmaCla repetitive sequences distribution in N. gonorrhoeae genomes. Compares SmaCla element counts and genomic positions between genomes with and without pilE genes using statistical tests (t-tests, Wilcoxon tests, and effect size calculations).
@@ -40,7 +40,7 @@ pip install pandas biopython matplotlib
 
 See script-specific README files in the /scripts folder.
 
-When using these scripts, please cite the  Manuscript: [Citation will be provided upon publishing the Manuscript]
+When using these scripts, please cite the  Manuscript: [Boiko I, Metaane S, Seifert HS. Publicly Available Neisseria Gonorrhoeae Genomes Predominantly Represent In Vitro-Derived Nonpiliated Variants. J Infect Dis. 2025 Dec 10:jiaf557. doi: 10.1093/infdis/jiaf557. Epub ahead of print. PMID: 41334759.]
 
 This work is dual-licensed under the MIT License for software components and the Creative Commons Attribution 4.0 International License for research data and documentation. See the LICENSE file for details.
 
