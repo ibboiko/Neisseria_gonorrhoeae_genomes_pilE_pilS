@@ -40,7 +40,7 @@ pip install pandas biopython matplotlib
 
 See script-specific README files in the /scripts folder.
 
-When using these scripts, please cite the  Manuscript: [Boiko I, Metaane S, Seifert HS. Publicly Available Neisseria Gonorrhoeae Genomes Predominantly Represent In Vitro-Derived Nonpiliated Variants. J Infect Dis. 2025 Dec 10:jiaf557. doi: 10.1093/infdis/jiaf557. Epub ahead of print. PMID: 41334759.]
+When using these scripts, please cite the  Manuscript: [Boiko I, Metaane S, Seifert HS. Publicly Available Neisseria Gonorrhoeae Genomes Predominantly Represent In Vitro-Derived Nonpiliated Variants. J Infect Dis. 2025 Dec 10:jiaf557. doi: 10.1093/infdis/jiaf557. Epub ahead of print. PMID: 41334759. https://pubmed.ncbi.nlm.nih.gov/41334759/]
 
 This work is dual-licensed under the MIT License for software components and the Creative Commons Attribution 4.0 International License for research data and documentation. See the LICENSE file for details.
 
